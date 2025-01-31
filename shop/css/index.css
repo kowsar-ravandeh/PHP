@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0px;
+}
+.header-top
+{
+	height: 60px;
+	direction: rtl;
+}
+.logo
+{
+	width: 25%;
+	color: #FF3838;
+	font-size: 35px;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px;	
+}
+.search
+{
+	width: 35%;
+	display: inline-block;
+	vertical-align: top;
+}
+.search input
+{
+	width: 80%;
+	height: 40px;
+	background-color: #B9B9B9;
+	border-radius: 10px;
+	border: none;
+	background-image: url("file:///C:/Users/Mirzayi/Desktop/tarahi%20web/images/icon/search.png.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	text-indent: 35px;
+	margin: 5px ;
+	background-size: 30px;
+}
+.login-btn
+{
+	width: 20%;
+	display: inline-block; 
+	vertical-align: top;
+}
+.login-btn span
+{
+	border: solid thin #bbb;
+	border-radius: 10px;
+	width: 70%;
+	height: 20%;
+	display: block;
+	background-image: url("file:///C:/Users/Mirzayi/Desktop/tarahi%20web/images/icon/user.png.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 35px;
+	text-align: left;
+	line-height: 50px;
+	margin: 5px;
+	font-size: 15px;
+}
+.kart
+{
+	width: 10%;
+	display: inline-block;
+	vertical-align: top;	
+}
+.kart img
+{
+	width: 45px;
+	height: 45px;
+	margin: 7px;
+}
+.header-bottom
+{
+    background-color: #15A5E1;height: 50px;	
+	direction: rtl;
+}
+.header-bottom ul
+{
+	
+}
+.header-bottom li
+{
+	display: inline-block;
+	width: 150px;
+	height: 48px;
+	line-height: 46px;
+	text-align: center;
+}
+.cool-link
+{
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+}
+.cool-link::after
+{
+	display: block;
+	content: '';
+	border-bottom: solid 3px #ef394e;
+	transform: scaleX(0);
+	transition: transform 300ms ease-in-out;
+}
+.cool-link:hover::after
+{
+	transform: scaleX(1);
+}
+
+.header-bottom img
+{
+	vertical-align: middle;
+	margin: 10px;
+	width:30px;
+	height:30px;
+	
+} 
+.navigation-menu
+{
+	width: 150px;
+	height: 422px;
+	background-color: #DFDFDF;
+	z-index: 99999;
+	position: absolute;
+	visibility: collapse;
+}
+.navigation-menu li
+{
+	width: 100%;
+	height: 60px;
+	display: block;
+}
+.navigation-menu uls
+{
+	padding:0;
+}
+#showmwnu:hover .navigation-menu
+{
+	visibility: visible;
+}
+
+
+
+
+.tablighat
+{
+	width: 100%;
+	height: 400px;
+	direction: rtl;	
+}
+.tablighat-right{
+	width: 65%;
+	height: 400px;
+	float: right;
+	background-color: palevioletred;	
+}
+.tablighat-left
+{
+	
+	width: 35%;	
+	height: 400px;
+	float: right;
+	background-color: darkgreen;
+}
+.tablighat-left img
+{
+	
+	width: 90%;
+	height: 190px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+
+.pishnahad
+{
+	width: 100%;
+	height: inherit 400px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 200px;
+    bottom: 100px;
+}
+.cat1
+{
+	background-color: #ef394e;
+	background-image:url("file:///C:/Users/Mirzayi/Desktop/tarahi%20web/images/pishnahadvizhe.png");
+}
+.cat2
+{
+	background-color: #6bb927;
+	background-image: url("file:///C:/Users/Mirzayi/Desktop/tarahi%20web/images/pishnahadvizhe2.png");
+}
+.link-btn
+{
+	border: solid thin #fff;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	width: 150px;
+	height: 50px;
+	display: block;
+	float: right;
+	margin-right: 50px; 
+	line-height: 50px;
+	text-align: center;
+	direction: rtl;
+	text-decoration: none;
+	color: #FFFFFF;
+	margin-top: 300px;
+}
+
+.item
+{
+	width: inherit 300px;
+	height: inherit 380px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: inline-block;
+	padding: 10px;
+	margin-left: 10px;
+}
+.item img
+{
+	width: 130px;
+	height: 150px;
+}
+.item h3
+{
+	font-size: 18px;
+	direction: rtl;
+	
+}
+.item h4
+{
+	font-size: 12px;
+	direction: rtl;
+}
+.takhfif
+{
+	background-color: #ef394e;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 4px;
+}
+.price
+{
+	font-weight: bold;
+	font-size: larger;
+}
+.old-price
+{
+	color: #666;
+}
+.toman
+{
+	
+}
+.time
+{
+	color: #666;
+}
+.category
+{
+	background-color: #E9E9E9;
+}
+.category img
+{
+	width: 20%;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #888;
+}

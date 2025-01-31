@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.c-top{
+	display: flex;
+	flex-direction: row;
+}
+.c-top-left{
+	background-color: #f00;
+	flex-grow: 5;
+	direction: rtl;
+}
+.c-top-right{
+	background-color: #0f0;
+	flex-grow: 1;
+}
+
+.related-products{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.r-p-module{
+	width:200px;
+	box-shadow: 0px 0px 5px #333;
+	direction: rtl;
+}
+.r-p-module img{
+	width: 200px;
+	height: 200px;
+}
+.r-p-module p{
+	padding: 5px;
+}
+
+
