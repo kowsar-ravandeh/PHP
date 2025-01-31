@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: B Kamran Bold ;
+	src:url("B Kamran Bold.ttf");
+}
+@font-face{
+	font-family: B Nazanin Bold;
+	src: url("B Nazanin Bold.ttf");
+}
+body{
+	font-family: B Nazanin Bold ;
+	background-color: #f5dff2;
+}
+.form-container{
+	width: 350px;
+	height: 450px;
+	border: thin solid #ccc;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 25px;
+	background-color: #ffffff;
+}
+h1{
+	text-align: center;
+	color:#9b0086;
+}
+h2{
+	text-align: right;
+}
+label{
+	color: #777;
+}
+input{
+	width: 100%;
+	height:35px;
+	border: solid thin #ccc;
+	border-radius: 10px;
+}
+#p1{
+	text-align: center;
+	color: #666;
+	font-size: 14px;
+	direction: rtl;
+	font-family: B Kamran Bold;
+}
+.submit{
+	background-color: #9b0086;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+	  text-align: center;
+}
